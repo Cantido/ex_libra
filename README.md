@@ -1,6 +1,6 @@
 # ExLibra
 
-**TODO: Add description**
+A library for crafting [Libravatar](https://libravatar.org) avatar URLs.
 
 ## Installation
 
