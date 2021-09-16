@@ -4,10 +4,14 @@ defmodule ExLibra.MixProject do
   def project do
     [
       app: :ex_libra,
+      description: "A Libravatar client",
       version: "0.1.0",
-      elixir: "~> 1.12",
+      elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package(),
+      source_url: "https://git.sr.ht/~cosmicrose/ex_libra",
+      homepage_url: "https://git.sr.ht/~cosmicrose/ex_libra"
     ]
   end
 
@@ -15,6 +19,18 @@ defmodule ExLibra.MixProject do
   def application do
     [
       extra_applications: [:logger]
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["Rosa Richter"],
+      licenses: ["MIT"],
+      links: %{
+        "GitHub" => "https://github.com/Cantido/ex_libra",
+        "sourcehut" => "https://git.sr.ht/~cosmicrose/ex_libra",
+        "Sponsor" => "https://liberapay.com/rosa"
+      }
     ]
   end
 
