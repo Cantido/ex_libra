@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Rosa Richter
+
+SPDX-License-Identifier: MIT
+-->
+
 # ExLibra
 
 A library for crafting [Libravatar](https://libravatar.org) avatar URLs.
